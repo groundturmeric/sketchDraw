@@ -1,0 +1,42 @@
+/* html, body {
+    height: 100%;
+  } */
+  
+  /* body {
+    margin: 0; */
+    /* display: flex; */
+  
+    /* This centers our sketch horizontally. */
+    /* justify-content: center; */
+  
+    /* This centers our sketch vertically. */
+    /* align-items: center; */
+  /* } */
+/* .center{
+    justify-content: center;
+    align-items: center;
+} */
+
+/*shows how to center a div in its container*/
+canvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .w3-padding-large{
+      background-color: black;
+  }
+/* 
+body{
+      background-color: black;
+  } */
+  .w3-black{
+      background-color: black;
+      color: black;
+  }
